@@ -1,24 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html class="h-full">
   <head>
     <title>{{ title }}</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/custom.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <nav
-    class="bg-black text-xs uppercase text-green-500 text-center flex items-center justify-center space-x-4"
-  >
-    {{ nav:collection:pages include_home="true" }}
-      <a href="{{ url }}" class="p-2 block hover:text-yellow-200">
-        {{ title }}
-      </a>
-    {{ /nav:collection:pages }}
-  </nav>
-
-  <body class="bg-gray-900 text-white text-lg font-mono">
-    <div class="container max-w-lg mx-auto py-8">
-      {{ template_content }}
-    </div>
+  <body class="grid place-content-center h-full">
+    {{ template_content }}
   </body>
 </html>

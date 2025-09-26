@@ -1,0 +1,35 @@
+:root {
+  --ff-display: "TT Modernoir", sans-serif;
+  --color-green-900: #051a18;
+  --color-green-500: #86e942;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-display);
+  color: var(--color-green-500);
+}
+
+body {
+  position: relative;
+  background-color: var(--color-green-900);
+}
+
+/* body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: center / cover no-repeat url("/assets/images/texture-3.jpg");
+  z-index: -1;
+  opacity: 0.05;
+  transform: rotate(180deg);
+} */
+
+@font-face {
+  font-family: "TT Modernoir";
+  src: url("/assets/fonts/tt-modernoir.ttf") format("truetype");
+}
