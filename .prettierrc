@@ -1,0 +1,12 @@
+{
+  "plugins": ["prettier-plugin-antlers"],
+  "overrides": [
+    {
+      "files": ["*.antlers.html"],
+      "options": {
+        "parser": "antlers"
+      }
+    }
+  ],
+  "tabWidth": 2
+}
