@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "TT Modernoir";
+  src: url("/assets/fonts/tt-modernoir.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noir Pro";
+  font-weight: 300 400;
+  src: url("/assets/fonts/noir-pro--light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noir Pro";
+  font-weight: 500;
+  src: url("/assets/fonts/noir-pro--medium.ttf") format("truetype");
+}
